@@ -1,7 +1,7 @@
 # One Logger Unmanaged Utils
 
 [![Install Unmanaged](https://img.shields.io/badge/Install-Unmanaged-cyan)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vmaR)
-[![Install Sandbox Unmanaged](https://img.shields.io/badge/Install%20Sandbox-Unmanaged-cyan)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vmaR)
+[![Install to Sandbox Unmanaged](https://img.shields.io/badge/Install%20to%20sandbox-Unmanaged-cyan)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vmaR)
 
 Util class for One Logger.
 
