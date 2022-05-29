@@ -1,4 +1,4 @@
-# One Logger Unmanaged Utils
+# One Logger Utils
 
 [![Install Unmanaged](https://img.shields.io/badge/Install-Unmanaged-cyan)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vmwU)
 [![Install to Sandbox Unmanaged](https://img.shields.io/badge/Install%20to%20sandbox-Unmanaged-cyan)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vmwU)
@@ -13,12 +13,10 @@ These classes allow One Logger to:
 * get limits for your default namespace
 
 ## Installation
-Install or create these components after you install the One Logger managed package.  
+Install or create these components after you install the One Logger managed package.
+
 Install unmanaged package:
 ```shell
 https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vmwU
 ```
-or use our sfdx plugin to deploy unpackaged without cloning:
-```shell
-sfdx kratapps:remote:source:deploy -s https://github.com/kratapps/one-logger-utils -p src/ -u my-org
-```
+or deploy all code in the `src/` directory.
