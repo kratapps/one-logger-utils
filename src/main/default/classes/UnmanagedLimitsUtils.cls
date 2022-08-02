@@ -1,3 +1,10 @@
+/**
+ * @author kratapps.com
+ * 
+ * @description Limits util class for One Logger.
+ * https://kratapps.com/one-logger/plugins/one-logger-utils/
+ */
+@SuppressWarnings('PMD.avoidglobalmodifier')
 global class UnmanagedLimitsUtils extends ok.LimitsUtils {
     global override Integer getAggregateQueries() {
         return Limits.getAggregateQueries();
