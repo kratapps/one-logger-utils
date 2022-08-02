@@ -2,8 +2,8 @@ alias=ok-utils
 alias_package_org=kratapps-prod
 
 package_id=0335e000000vLOm
-version_name=1.2
-version_id=04t5e000000vmwU
+version_name=1.3
+version_id=04t5e000000vn4t
     
 scratch-org:
 	make create-scratch-org
