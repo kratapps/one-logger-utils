@@ -1,7 +1,7 @@
 # One Logger Utils
 
-[![Install Production](https://img.shields.io/badge/Unmanaged%20Package-Install%20Production-cyan)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vmwU)
-[![Install Sandbox](https://img.shields.io/badge/Unmanaged%20Package-Install%20Sandbox-cyan)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vmwU)
+[![Install Production](https://img.shields.io/badge/Unmanaged%20Package-Install%20Production-cyan)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vn4t)
+[![Install Sandbox](https://img.shields.io/badge/Unmanaged%20Package-Install%20Sandbox-cyan)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vn4t)
 
 
 Util classes for One Logger.
@@ -18,6 +18,6 @@ Install or create these components after you install the One Logger managed pack
 
 Install unmanaged package:
 ```shell
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vmwU
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vn4t
 ```
 or deploy all code in the `src/` directory.
