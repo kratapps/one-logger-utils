@@ -3,21 +3,24 @@
 [![Install Production](https://img.shields.io/badge/Unmanaged%20Package-Install%20Production-cyan)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vn4t)
 [![Install Sandbox](https://img.shields.io/badge/Unmanaged%20Package-Install%20Sandbox-cyan)](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vn4t)
 
+Utility classes for One Logger.
 
-Util classes for One Logger.
-
-All the classes are intended to be unmanaged/unpackaged and are used by the One Logger managed package.
-
+Create or install unmanaged/unpackaged utility classes for One Logger.
+You can either create this class directly or install our unmanaged package.
 These classes allow One Logger to:
-* debug to system console
-* get stack trace string
-* get limits for your default namespace
+
+-   Debug to the system console (Apex Log).
+-   Retrieve the stack trace string.
+-   Obtain limits for your default namespace.
 
 ## Installation
+
 Install or create these components after you install the One Logger managed package.
 
-Install unmanaged package:
-```shell
+To install the unmanaged package, use the following link:
+
+```
 https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000vn4t
 ```
-or deploy all code in the `src/` directory.
+
+Alternatively, deploy all code in the `src/` directory from the GitHub [one-logger-utils](https://github.com/kratapps/one-logger-utils) repository.
